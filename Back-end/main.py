@@ -231,7 +231,7 @@ async def chat(message: Message):
         with open('history.txt', 'a', encoding='utf-8') as file:
             file.write(f'User Input >> {message.content}\n')
             file.write(f'AI Response >>  {response}\n\n')
-        publish_mqtt_message(response)
+        #publish_mqtt_message(response)
         return response        
     if message.content == "RESTART":
         scenario = generate_scenario()
@@ -241,7 +241,7 @@ async def chat(message: Message):
             scenario_content = file.read()
         response = ask_question(message.content)
         print(response)
-        publish_mqtt_message(response)
+        #publish_mqtt_message(response)
         clean_history()
         return response
     
@@ -256,7 +256,7 @@ async def chat(message: Message):
         file.write(f'User Input >> {message.content}\n')
         file.write(f'AI Response >>  {response}\n\n')
     # 답변을 출력
-    publish_mqtt_message(response)
+    #publish_mqtt_message(response)
     return response
 
 @app.get("/scenario")
