@@ -279,11 +279,17 @@ class _CommonFloatingButtonState extends State<CommonFloatingButton>
             ),
             TextButton(
               child: Text("전송"),
-              onPressed: () {
-                NetworkUtils.sendMessageToServer(
-                    "${widget.screenName} 화면에서 사용자가 직접 입력한 질문: ${_textController.text}");
+              onPressed: () async {
+              String userInput = _textController.text;
+              if (userInput.isNotEmpty) {
+                // 서버로 메시지 전송 후 응답을 받아서 화면에 표시
+                await NetworkUtils.sendMessageAndShowResponse(
+                  context,
+                  "${widget.screenName} 화면에서 사용자가 직접 입력한 질문: $userInput",
+                );
                 Navigator.of(context).pop();
                 _animationController.reverse();
+              }
               },
             ),
           ],
