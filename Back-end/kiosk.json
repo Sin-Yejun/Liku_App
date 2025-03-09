@@ -71,1308 +71,1026 @@
                 "label": "목적지 선택 버튼",
                 "action": "navigate",
                 "next_screen": "버스시간 선택 화면",
-                "destination_detail": [
+                "destination": [
                     {
-                        "regions": {
-                            "특별/광역/자치": [
-                                {
-                                    "name": "군단앞(포천)",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "대전청사(선사유적)",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "부산해운대(수도권)",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "북대전IC",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "세종",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "세종청사",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "울산",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "울산신복",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "유성시외",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "인천",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "자운대",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "좌천",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "현풍",
-                                    "consonant": "ㅎ"
-                                }
-                            ],
-                            "강원도": [
-                                {
-                                    "name": "15초소",
-                                    "consonant": "기타"
-                                },
-                                {
-                                    "name": "38연대",
-                                    "consonant": "기타"
-                                },
-                                {
-                                    "name": "간성",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "강릉시외터미널",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "강촌",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "강포리",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "거진",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "검문소(명월)",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "고석평",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "고한사북공영",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "광덕계곡",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "광덕산",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "낙산",
-                                    "consonant": "ㄴ"
-                                },
-                                {
-                                    "name": "남교",
-                                    "consonant": "ㄴ"
-                                },
-                                {
-                                    "name": "내촌",
-                                    "consonant": "ㄴ"
-                                },
-                                {
-                                    "name": "다목리",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "달거리",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "당림리",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "대진",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "덕다리",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "동송",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "동해",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "두미르아파트",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "두촌",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "맹대",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "면사무소(사북)",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "명월리",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "문막",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "문혜리",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "물치",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "미다리",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "미탄",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "방림",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "방림삼거리",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "백담사",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "백운동",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "복지골",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "사단앞",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "사창리",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "산양리",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "삼척",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "상남",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "상노리",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "상호아파트",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "새말",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "서오지리",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "서천리",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "서화(강원)",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "성산",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "성심병원",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "소양뱃터",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "속초",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "송청리",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "신남",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "신수리",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "신철원",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "신포리",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "아파트",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "안보리",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "안흥",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "양구",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "양구정중앙",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "양덕원",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "양양",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "어리고개",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "영월",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "오색",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "오색등산로",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "오색흘림골",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "와수리",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "와야리",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "용대삼거리",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "운교",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "원리분교",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "원주",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "원천리",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "원통",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "원평리",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "유현리",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "인제",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "임원",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "자등리",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "장수대",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "장신",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "장평",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "장호",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "정선",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "주문진",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "주문진해변(청시행)",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "지경리",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "지촌",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "진부",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "진부령",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "천도리",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "철정",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "청2리",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "춘천",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "춘천역",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "태백",
-                                    "consonant": "ㅌ"
-                                },
-                                {
-                                    "name": "평창",
-                                    "consonant": "ㅍ"
-                                },
-                                {
-                                    "name": "풍수원",
-                                    "consonant": "ㅍ"
-                                },
-                                {
-                                    "name": "하남(강원)",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "하조대",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "학사리",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "한계령",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "해안",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "햇골",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "현대아파트(춘천)",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "현리(강원)",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "현지사",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "호산",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "홍천",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "화상대",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "화천",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "횡계",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "횡성",
-                                    "consonant": "ㅎ"
-                                }
-                            ],
-                            "경기도": [
-                                {
-                                    "name": "6사단",
-                                    "consonant": "기타"
-                                },
-                                {
-                                    "name": "가산",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "가천대",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "가평",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "갈운리",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "공도",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "관인",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "광탄",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "국수리",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "내촌(포천)",
-                                    "consonant": "ㄴ"
-                                },
-                                {
-                                    "name": "단월(양평)",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "당수동",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "대림동산",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "대성리",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "대진대",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "도예촌",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "도평3리",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "도평리",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "동아방송대",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "동탄",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "두원공대",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "만세교",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "상록수",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "성동2리",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "성모병원(의정부)",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "소학리",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "송우리",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "송탄",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "시민회관",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "신북(경기)",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "신장(경기)",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "아미리",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "안산터미널",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "안성",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "안성풍림",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "야미리",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "양문",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "양평",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "여주",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "여주대",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "여주태평리",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "영북농협",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "오산",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "용두(양평)",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "용문",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "용이동",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "운악산휴게소",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "의왕TG",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "의정부",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "이동",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "이천",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "이황리",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "일동",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "일죽",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "장암(주공)",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "장현",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "장호원",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "죽산",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "중앙대(안성)",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "청평",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "축석고개",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "평택",
-                                    "consonant": "ㅍ"
-                                },
-                                {
-                                    "name": "평택대",
-                                    "consonant": "ㅍ"
-                                },
-                                {
-                                    "name": "포천",
-                                    "consonant": "ㅍ"
-                                },
-                                {
-                                    "name": "한경대",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "한국관광대",
-                                    "consonant": "ㅎ"
-                                }
-                            ],
-                            "경상남도": [
-                                {
-                                    "name": "거제(고현)",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "거창",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "마천",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "서상(남덕유산)",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "수동(함양)",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "신반",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "안의",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "양산",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "의령",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "이방",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "적교",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "지리산(백무동)",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "통영",
-                                    "consonant": "ㅌ"
-                                },
-                                {
-                                    "name": "함양",
-                                    "consonant": "ㅎ"
-                                }
-                            ],
-                            "경상북도": [
-                                {
-                                    "name": "가은",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "경북도청(신)",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "경주시외",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "구미",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "군위",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "금강송",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "기성",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "농암",
-                                    "consonant": "ㄴ"
-                                },
-                                {
-                                    "name": "다인",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "단촌",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "도리원",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "문경",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "봉화(경북)",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "부구",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "상주시외",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "안계",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "안동",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "안동대",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "안동초교",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "영덕",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "영양",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "영주",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "영해",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "예천",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "온정",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "용궁",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "용상",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "울진",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "은척",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "의성",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "일직",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "입암",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "점촌",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "주왕산",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "죽변",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "지동",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "진보",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "청송",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "춘양",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "평해",
-                                    "consonant": "ㅍ"
-                                },
-                                {
-                                    "name": "포항",
-                                    "consonant": "ㅍ"
-                                },
-                                {
-                                    "name": "풍기IC",
-                                    "consonant": "ㅍ"
-                                },
-                                {
-                                    "name": "풍양",
-                                    "consonant": "ㅍ"
-                                },
-                                {
-                                    "name": "한방단지",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "함창",
-                                    "consonant": "ㅎ"
-                                },
-                                {
-                                    "name": "후포",
-                                    "consonant": "ㅎ"
-                                }
-                            ],
-                            "전라남도": [
-                                {
-                                    "name": "노고단(성삼재)",
-                                    "consonant": "ㄴ"
-                                },
-                                {
-                                    "name": "목포",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "순천",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "여수",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "해남",
-                                    "consonant": "ㅎ"
-                                }
-                            ],
-                            "전라북도": [
-                                {
-                                    "name": "군산",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "김제",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "뱀사골",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "부안",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "익산",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "인월",
-                                    "consonant": "ㅇ"
-                                }
-                            ],
-                            "충청남도": [
-                                {
-                                    "name": "공주",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "기지시",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "논산",
-                                    "consonant": "ㄴ"
-                                },
-                                {
-                                    "name": "당진",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "봉강교",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "부여",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "서산",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "아산(온양)",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "어송",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "운산",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "음암",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "천안",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "태안",
-                                    "consonant": "ㅌ"
-                                }
-                            ],
-                            "충청북도": [
-                                {
-                                    "name": "감곡",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "건국대(충주)",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "광혜원",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "괴산",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "교통대",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "구인사",
-                                    "consonant": "ㄱ"
-                                },
-                                {
-                                    "name": "꽃동네",
-                                    "consonant": "ㄲ"
-                                },
-                                {
-                                    "name": "단양",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "단양상진",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "대소",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "덕산(충북)",
-                                    "consonant": "ㄷ"
-                                },
-                                {
-                                    "name": "매포",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "맹동",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "무극",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "미원",
-                                    "consonant": "ㅁ"
-                                },
-                                {
-                                    "name": "보은",
-                                    "consonant": "ㅂ"
-                                },
-                                {
-                                    "name": "사평리(가곡)",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "삼성",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "상판",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "생극",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "서충주",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "세명대",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "속리산",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "수안보",
-                                    "consonant": "ㅅ"
-                                },
-                                {
-                                    "name": "영춘",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "용원(충북)",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "용포",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "음성",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "이월",
-                                    "consonant": "ㅇ"
-                                },
-                                {
-                                    "name": "제천",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "주덕",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "증평",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "진천",
-                                    "consonant": "ㅈ"
-                                },
-                                {
-                                    "name": "창리",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "청주",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "청주대",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "청주대정류소",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "청주북부터미널",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "충북보건대",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "충북혁신도시",
-                                    "consonant": "ㅊ"
-                                },
-                                {
-                                    "name": "충주",
-                                    "consonant": "ㅊ"
-                                }
-                            ]
-                        }
+                        "name": "군단앞(포천)",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "대전청사(선사유적)",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "부산해운대(수도권)",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㅂ"
+                    },
+                    {
+                        "name": "북대전IC",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㅂ"
+                    },
+                    {
+                        "name": "세종",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "세종청사",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "울산",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "울산신복",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "유성시외",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "인천",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "자운대",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "좌천",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "현풍",
+                        "region": "특별/광역/자치",
+                        "consonant": "ㅎ"
+                    },
+                    {
+                        "name": "6사단",
+                        "region": "충청북도",
+                        "consonant": "기타"
+                    },
+                    {
+                        "name": "가산",
+                        "region": "충청북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "가천대",
+                        "region": "충청북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "가평",
+                        "region": "충청북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "갈운리",
+                        "region": "충청북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "공도",
+                        "region": "충청북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "관인",
+                        "region": "충청북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "광탄",
+                        "region": "충청북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "국수리",
+                        "region": "충청북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "내촌(포천)",
+                        "region": "충청북도",
+                        "consonant": "ㄴ"
+                    },
+                    {
+                        "name": "단월(양평)",
+                        "region": "충청북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "당수동",
+                        "region": "충청북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "대림동산",
+                        "region": "충청북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "대성리",
+                        "region": "충청북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "대진대",
+                        "region": "충청북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "도예촌",
+                        "region": "충청북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "도평3리",
+                        "region": "충청북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "도평리",
+                        "region": "충청북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "동아방송대",
+                        "region": "충청북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "동탄",
+                        "region": "충청북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "두원공대",
+                        "region": "충청북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "만세교",
+                        "region": "충청북도",
+                        "consonant": "ㅁ"
+                    },
+                    {
+                        "name": "상록수",
+                        "region": "충청북도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "성동2리",
+                        "region": "충청북도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "성모병원(의정부)",
+                        "region": "충청북도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "소학리",
+                        "region": "충청북도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "송우리",
+                        "region": "충청북도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "송탄",
+                        "region": "충청북도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "시민회관",
+                        "region": "충청북도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "신북(경기)",
+                        "region": "충청북도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "신장(경기)",
+                        "region": "충청북도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "아미리",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "안산터미널",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "안성",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "안성풍림",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "야미리",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "양문",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "양평",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "여주",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "여주대",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "여주태평리",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "영북농협",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "오산",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "용두(양평)",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "용문",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "용이동",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "운악산휴게소",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "의왕TG",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "의정부",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "이동",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "이천",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "이황리",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "일동",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "일죽",
+                        "region": "충청북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "장암(주공)",
+                        "region": "충청북도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "장현",
+                        "region": "충청북도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "장호원",
+                        "region": "충청북도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "죽산",
+                        "region": "충청북도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "중앙대(안성)",
+                        "region": "충청북도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "청평",
+                        "region": "충청북도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "축석고개",
+                        "region": "충청북도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "평택",
+                        "region": "충청북도",
+                        "consonant": "ㅍ"
+                    },
+                    {
+                        "name": "평택대",
+                        "region": "충청북도",
+                        "consonant": "ㅍ"
+                    },
+                    {
+                        "name": "포천",
+                        "region": "충청북도",
+                        "consonant": "ㅍ"
+                    },
+                    {
+                        "name": "한경대",
+                        "region": "충청북도",
+                        "consonant": "ㅎ"
+                    },
+                    {
+                        "name": "한국관광대",
+                        "region": "충청북도",
+                        "consonant": "ㅎ"
+                    },
+                    {
+                        "name": "거제(고현)",
+                        "region": "충청남도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "거창",
+                        "region": "충청남도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "마천",
+                        "region": "충청남도",
+                        "consonant": "ㅁ"
+                    },
+                    {
+                        "name": "서상(남덕유산)",
+                        "region": "충청남도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "수동(함양)",
+                        "region": "충청남도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "신반",
+                        "region": "충청남도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "안의",
+                        "region": "충청남도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "양산",
+                        "region": "충청남도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "의령",
+                        "region": "충청남도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "이방",
+                        "region": "충청남도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "적교",
+                        "region": "충청남도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "지리산(백무동)",
+                        "region": "충청남도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "통영",
+                        "region": "충청남도",
+                        "consonant": "ㅌ"
+                    },
+                    {
+                        "name": "함양",
+                        "region": "충청남도",
+                        "consonant": "ㅎ"
+                    },
+                    {
+                        "name": "가은",
+                        "region": "전라북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "경북도청(신)",
+                        "region": "전라북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "경주시외",
+                        "region": "전라북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "구미",
+                        "region": "전라북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "군위",
+                        "region": "전라북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "금강송",
+                        "region": "전라북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "기성",
+                        "region": "전라북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "농암",
+                        "region": "전라북도",
+                        "consonant": "ㄴ"
+                    },
+                    {
+                        "name": "다인",
+                        "region": "전라북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "단촌",
+                        "region": "전라북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "도리원",
+                        "region": "전라북도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "문경",
+                        "region": "전라북도",
+                        "consonant": "ㅁ"
+                    },
+                    {
+                        "name": "봉화(경북)",
+                        "region": "전라북도",
+                        "consonant": "ㅂ"
+                    },
+                    {
+                        "name": "부구",
+                        "region": "전라북도",
+                        "consonant": "ㅂ"
+                    },
+                    {
+                        "name": "상주시외",
+                        "region": "전라북도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "안계",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "안동",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "안동대",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "안동초교",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "영덕",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "영양",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "영주",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "영해",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "예천",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "온정",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "용궁",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "용상",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "울진",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "은척",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "의성",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "일직",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "입암",
+                        "region": "전라북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "점촌",
+                        "region": "전라북도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "주왕산",
+                        "region": "전라북도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "죽변",
+                        "region": "전라북도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "지동",
+                        "region": "전라북도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "진보",
+                        "region": "전라북도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "청송",
+                        "region": "전라북도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "춘양",
+                        "region": "전라북도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "평해",
+                        "region": "전라북도",
+                        "consonant": "ㅍ"
+                    },
+                    {
+                        "name": "포항",
+                        "region": "전라북도",
+                        "consonant": "ㅍ"
+                    },
+                    {
+                        "name": "풍기IC",
+                        "region": "전라북도",
+                        "consonant": "ㅍ"
+                    },
+                    {
+                        "name": "풍양",
+                        "region": "전라북도",
+                        "consonant": "ㅍ"
+                    },
+                    {
+                        "name": "한방단지",
+                        "region": "전라북도",
+                        "consonant": "ㅎ"
+                    },
+                    {
+                        "name": "함창",
+                        "region": "전라북도",
+                        "consonant": "ㅎ"
+                    },
+                    {
+                        "name": "후포",
+                        "region": "전라북도",
+                        "consonant": "ㅎ"
+                    },
+                    {
+                        "name": "노고단(성삼재)",
+                        "region": "전라남도",
+                        "consonant": "ㄴ"
+                    },
+                    {
+                        "name": "목포",
+                        "region": "전라남도",
+                        "consonant": "ㅁ"
+                    },
+                    {
+                        "name": "순천",
+                        "region": "전라남도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "여수",
+                        "region": "전라남도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "해남",
+                        "region": "전라남도",
+                        "consonant": "ㅎ"
+                    },
+                    {
+                        "name": "군산",
+                        "region": "경상북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "김제",
+                        "region": "경상북도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "뱀사골",
+                        "region": "경상북도",
+                        "consonant": "ㅂ"
+                    },
+                    {
+                        "name": "부안",
+                        "region": "경상북도",
+                        "consonant": "ㅂ"
+                    },
+                    {
+                        "name": "익산",
+                        "region": "경상북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "인월",
+                        "region": "경상북도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "공주",
+                        "region": "경상남도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "기지시",
+                        "region": "경상남도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "논산",
+                        "region": "경상남도",
+                        "consonant": "ㄴ"
+                    },
+                    {
+                        "name": "당진",
+                        "region": "경상남도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "봉강교",
+                        "region": "경상남도",
+                        "consonant": "ㅂ"
+                    },
+                    {
+                        "name": "부여",
+                        "region": "경상남도",
+                        "consonant": "ㅂ"
+                    },
+                    {
+                        "name": "서산",
+                        "region": "경상남도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "아산(온양)",
+                        "region": "경상남도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "어송",
+                        "region": "경상남도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "운산",
+                        "region": "경상남도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "음암",
+                        "region": "경상남도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "천안",
+                        "region": "경상남도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "태안",
+                        "region": "경상남도",
+                        "consonant": "ㅌ"
+                    },
+                    {
+                        "name": "감곡",
+                        "region": "경기도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "건국대(충주)",
+                        "region": "경기도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "광혜원",
+                        "region": "경기도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "괴산",
+                        "region": "경기도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "교통대",
+                        "region": "경기도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "구인사",
+                        "region": "경기도",
+                        "consonant": "ㄱ"
+                    },
+                    {
+                        "name": "꽃동네",
+                        "region": "경기도",
+                        "consonant": "ㄲ"
+                    },
+                    {
+                        "name": "단양",
+                        "region": "경기도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "단양상진",
+                        "region": "경기도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "대소",
+                        "region": "경기도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "덕산(충북)",
+                        "region": "경기도",
+                        "consonant": "ㄷ"
+                    },
+                    {
+                        "name": "매포",
+                        "region": "경기도",
+                        "consonant": "ㅁ"
+                    },
+                    {
+                        "name": "맹동",
+                        "region": "경기도",
+                        "consonant": "ㅁ"
+                    },
+                    {
+                        "name": "무극",
+                        "region": "경기도",
+                        "consonant": "ㅁ"
+                    },
+                    {
+                        "name": "미원",
+                        "region": "경기도",
+                        "consonant": "ㅁ"
+                    },
+                    {
+                        "name": "보은",
+                        "region": "경기도",
+                        "consonant": "ㅂ"
+                    },
+                    {
+                        "name": "사평리(가곡)",
+                        "region": "경기도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "삼성",
+                        "region": "경기도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "상판",
+                        "region": "경기도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "생극",
+                        "region": "경기도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "서충주",
+                        "region": "경기도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "세명대",
+                        "region": "경기도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "속리산",
+                        "region": "경기도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "수안보",
+                        "region": "경기도",
+                        "consonant": "ㅅ"
+                    },
+                    {
+                        "name": "영춘",
+                        "region": "경기도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "용원(충북)",
+                        "region": "경기도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "용포",
+                        "region": "경기도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "음성",
+                        "region": "경기도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "이월",
+                        "region": "경기도",
+                        "consonant": "ㅇ"
+                    },
+                    {
+                        "name": "제천",
+                        "region": "경기도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "주덕",
+                        "region": "경기도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "증평",
+                        "region": "경기도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "진천",
+                        "region": "경기도",
+                        "consonant": "ㅈ"
+                    },
+                    {
+                        "name": "창리",
+                        "region": "경기도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "청주",
+                        "region": "경기도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "청주대",
+                        "region": "경기도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "청주대정류소",
+                        "region": "경기도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "청주북부터미널",
+                        "region": "경기도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "충북보건대",
+                        "region": "경기도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "충북혁신도시",
+                        "region": "경기도",
+                        "consonant": "ㅊ"
+                    },
+                    {
+                        "name": "충주",
+                        "region": "경기도",
+                        "consonant": "ㅊ"
                     }
                 ]
             }
