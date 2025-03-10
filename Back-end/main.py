@@ -1,3 +1,4 @@
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from pydantic import BaseModel
 from langchain_openai import ChatOpenAI
@@ -119,14 +120,22 @@ def generate_scenario():
     
     return scenario_text
 
-# 앱이 시작될 때 시나리오 생성
-@app.on_event("startup")
-def create_scenario_on_startup():
+# Lifespan 핸들러 정의
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup 시 실행
     scenario = generate_scenario()
     print("\n 서버가 실행되었습니다. \n")
     global scenario_content
     with open('scenario.txt', 'r', encoding='utf-8') as file:
         scenario_content = file.read()
+    
+    yield  # 앱 실행 중
+    
+    # Shutdown 시 실행 (필요 시 추가)
+    print("\n 서버가 종료되었습니다. \n")
+
+app.router.lifespan_context = lifespan
 
 # JSON 파일 로드
 if json_file_path.exists():
@@ -215,24 +224,34 @@ def compliment_generate(response):
 @app.post("/chat")
 async def chat(message: Message):
     global scenario_content
+
+    # 사용자가 앱을 실행했다면
     if message.content == "사용자가 앱을 실행했습니다.":
         scenario = generate_scenario()
         with open('scenario.txt', 'r', encoding='utf-8') as file:
             scenario_content = file.read()
+
         # Extract values for 목적지, 버스시간, 인원
         destination = re.search(r'목적지 = "(.*?)"', scenario_content).group(1)
         bus_time = re.search(r'버스시간 = "(.*?)"', scenario_content).group(1)
         people = re.search(r'인원 = "(.*?)"', scenario_content).group(1)
+
         # Format the response
         response = f"안녕하세요. 리쿠와 함께하는 키오스크 교육에 오신 것을 환영합니다. 오늘 해볼 미션은 [{destination}] 지역으로 가는 [{bus_time}] 버스를 선택하고 [{people}]을 예매하는 것입니다. 화면 오른쪽 보라색 버튼을 눌러 목적지 선택 화면으로 이동해볼까요?"
-        clean_history()  # Clear history if needed
+
+        clean_history()  # Clear history
+
         print('사용자 입력 >> ' + message.content)
         print('AI 답변 >> ' + response)
+
         with open('history.txt', 'a', encoding='utf-8') as file:
             file.write(f'User Input >> {message.content}\n')
             file.write(f'AI Response >>  {response}\n\n')
         #publish_mqtt_message(response)
-        return response        
+
+        return response
+    
+    # 사용자가 재시작 버튼을 눌렀다면
     if message.content == "RESTART":
         scenario = generate_scenario()
         print(f"생성된 시나리오:\n{scenario}")
@@ -246,17 +265,19 @@ async def chat(message: Message):
         return response
     
     response = ask_question(message.content)
+
     # 50% 확률로 칭찬 추가
     if random.random() < 0.5 and message.content[0] == '*':
         response = compliment_generate(response)
 
     print('사용자 입력 >> ' + message.content)
     print('AI 답변 >> ' + response)
+
     with open('history.txt', 'a', encoding='utf-8') as file:
         file.write(f'User Input >> {message.content}\n')
         file.write(f'AI Response >>  {response}\n\n')
-    # 답변을 출력
     #publish_mqtt_message(response)
+    # 답변을 출력
     return response
 
 @app.get("/scenario")

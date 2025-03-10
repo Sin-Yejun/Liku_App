@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const Headercomp(text: 'ë™ì„œìš¸ í„°ë¯¸ë„ ë¬´ì¸ë°œë§¤ê¸° ì…ë‹ˆë‹¤.'),
+      appBar: const Headercomp(text: 'µ¿¼­¿ï ÅÍ¹Ì³Î ¹«ÀÎ¹ß¸Å±â ÀÔ´Ï´Ù.'),
       body: SingleChildScrollView(
         child: Center(
           child: Column(
@@ -61,8 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
               // OrangeButton(text: "text"),
               ShowInfo(),
-              FinalResult(title: "ì´ ìˆ˜ëŸ‰", data: "10"),
-              TicketResults(title: "ì¶œë°œì§€", content: "ë™ì„œìš¸", width: 100),
+              FinalResult(title: "ÃÑ ¼ö·®", data: "10"),
+              TicketResults(title: "Ãâ¹ßÁö", content: "µ¿¼­¿ï", width: 100),
               SizedBox(height: 5),
               Container(
                   alignment: Alignment.center,
@@ -70,10 +70,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 82,
                   child: LocationContainer(
                     onRegionSelected: (String selectedRegion) {
-                      if (selectedRegion == 'ê°•ì›ë„') {
-                        print('ê°•ì›ë„ê°€ ì„ íƒë˜ì—ˆìŠµë‹ˆë‹¤.');
+                      if (selectedRegion == '°­¿øµµ') {
+                        print('°­¿øµµ°¡ ¼±ÅÃµÇ¾ú½À´Ï´Ù.');
                       } else {
-                        print('$selectedRegionê°€ ì„ íƒë˜ì—ˆìŠµë‹ˆë‹¤.');
+                        print('$selectedRegion°¡ ¼±ÅÃµÇ¾ú½À´Ï´Ù.');
                       }
                     },
                   )),
